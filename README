@@ -1,0 +1,21 @@
+Installation:
+
+	1. Place task.rb somewhere (for example, ~/.task.rb so it is a hidden file in your home folder)
+		mv task.rb ~/.task.rb
+
+	2. Create an alias in your ~/.bashrc file like this:
+		alias task="~/.task.rb"
+			This allows you to simply run "task" at the command line to use the script
+	
+	3. Run the following command to see how to use the script:
+		task help
+		
+Commands:
+
+	task add "do some laundry"	<< Add the task "do some laundry"
+	
+	task				 		<< View your tasks and task numbers
+
+	task destroy 1				<< Destroy the task labelled "1"
+	
+	task help					<< View the help information
