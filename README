@@ -1,3 +1,8 @@
+About:
+
+	This is a simple script I wrote when I first started learning Ruby and wanted a little task manager in my terminal. I use it on my Macbook but it should work just the same in Linux. It requires sqlite3-ruby, so if you don't have that you'll need to run the following command:
+	gem install sqlite3-ruby
+
 Installation:
 
 	1. Place task.rb somewhere (for example, ~/.task.rb so it is a hidden file in your home folder)
